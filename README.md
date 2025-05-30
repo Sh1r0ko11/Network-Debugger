@@ -26,14 +26,10 @@ Hey there! 👋 This is my fun little project that I created to make network ana
    - Download this repo as ZIP or clone it
    - Put it somewhere you can easily find it (like Documents folder)
 
-2. Install Node.js for JavaScript support:
-   - Download Node.js from [https://nodejs.org/](https://nodejs.org/)
-   - Install the LTS (Long Term Support) version
-   - Verify installation by opening PowerShell and typing:
-```powershell
-node --version
-npm --version
-```
+2. Install Npcap FIRST (Required for network capture):
+   - Download Npcap from [https://npcap.com/](https://npcap.com/)
+   - Just click next-next-finish (default settings are perfect!)
+   - Note: You don't need Wireshark, just Npcap!
 
 3. Install Python packages (open PowerShell as admin):
 ```powershell
@@ -41,21 +37,16 @@ npm --version
 pip install scapy        # For packet capture
 pip install psutil       # For process monitoring
 pip install pandas      # For data analysis
-
-# These are usually included with Python
-# but if you get import errors, install them:
-pip install tkinter     # For GUI (usually included)
-pip install threading   # Built-in
-pip install datetime    # Built-in
-pip install socket      # Built-in
-pip install struct      # Built-in
-pip install re         # Built-in
 ```
 
-4. Install Npcap (REQUIRED for packet capture):
-   - Download Npcap from [https://npcap.com/](https://npcap.com/)
-   - Just click next-next-finish (default settings are perfect!)
-   - This is needed for Scapy to capture packets!
+4. Install Node.js for JavaScript support:
+   - Download Node.js from [https://nodejs.org/](https://nodejs.org/)
+   - Install the LTS (Long Term Support) version
+   - Verify installation by opening PowerShell and typing:
+```powershell
+node --version
+npm --version
+```
 
 5. Verify JavaScript files:
    Make sure all these files are in your project folder:
@@ -106,4 +97,4 @@ I created this tool just for fun while learning about network analysis. It start
 
 This is free to use! If you make something cool with it, I'd love to hear about it. Built with ❤️ and lots of ☕
 
-> **Note**: This is a learning tool!
+> **Note**: This is a learning tool! Be responsible with network analysis tools. Don't be that person who uses it for uncool stuff! 😉
