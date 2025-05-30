@@ -26,18 +26,27 @@ Hey there! 👋 This is my fun little project that I created to make network ana
    - Download this repo as ZIP or clone it
    - Put it somewhere you can easily find it (like Documents folder)
 
-2. Install Python stuff (open PowerShell as admin):
+2. Install Python packages (open PowerShell as admin):
 ```powershell
-pip install scapy==2.5.0
-pip install psutil==5.9.0
-pip install pandas
-pip install tkinter
+# Core packages
+pip install scapy        # For packet capture
+pip install psutil       # For process monitoring
+pip install pandas      # For data analysis
+
+# These are usually included with Python
+# but if you get import errors, install them:
+pip install tkinter     # For GUI (usually included)
+pip install threading   # Built-in
+pip install datetime    # Built-in
+pip install socket      # Built-in
+pip install struct      # Built-in
+pip install re         # Built-in
 ```
 
 3. Install Npcap (REQUIRED for packet capture):
    - Download Npcap from [https://npcap.com/](https://npcap.com/)
-   - Select "WinPcap API-compatible Mode" during installation
    - Just click next-next-finish (default settings are perfect!)
+   - This is needed for Scapy to capture packets!
 
 4. Additional Components (auto-installed with pip):
    - struct (built into Python)
