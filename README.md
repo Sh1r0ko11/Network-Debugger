@@ -26,7 +26,16 @@ Hey there! 👋 This is my fun little project that I created to make network ana
    - Download this repo as ZIP or clone it
    - Put it somewhere you can easily find it (like Documents folder)
 
-2. Install Python packages (open PowerShell as admin):
+2. Install Node.js for JavaScript support:
+   - Download Node.js from [https://nodejs.org/](https://nodejs.org/)
+   - Install the LTS (Long Term Support) version
+   - Verify installation by opening PowerShell and typing:
+```powershell
+node --version
+npm --version
+```
+
+3. Install Python packages (open PowerShell as admin):
 ```powershell
 # Core packages
 pip install scapy        # For packet capture
@@ -43,20 +52,25 @@ pip install struct      # Built-in
 pip install re         # Built-in
 ```
 
-3. Install Npcap (REQUIRED for packet capture):
+4. Install Npcap (REQUIRED for packet capture):
    - Download Npcap from [https://npcap.com/](https://npcap.com/)
    - Just click next-next-finish (default settings are perfect!)
    - This is needed for Scapy to capture packets!
 
-4. Additional Components (auto-installed with pip):
-   - struct (built into Python)
-   - datetime (built into Python)
-   - threading (built into Python)
-   - socket (built into Python)
-   - webbrowser (built into Python)
-   - os (built into Python)
-   - re (built into Python)
-   - collections (built into Python)
+5. Verify JavaScript files:
+   Make sure all these files are in your project folder:
+   - operation_nomenclature.js
+   - cpu_tracker.js
+   - assembly_tracker.js
+   - ram_debugger.js
+   - x86_assembly_monitor.js
+   - memory_profiler.js
+   - WEb-IDE_Debugger1.html
+
+6. Additional Components (auto-installed):
+   - All Python built-in modules (struct, datetime, etc.)
+   - JavaScript runs in the browser (no extra installation needed)
+   - HTML/CSS comes with the package
 
 ## 🎮 Fire It Up!
 
