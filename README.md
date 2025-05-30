@@ -26,20 +26,35 @@ Hey there! 👋 This is my fun little project that I created to make network ana
    - Download this repo as ZIP or clone it
    - Put it somewhere you can easily find it (like Documents folder)
 
-2. Install Npcap FIRST (Required for network capture):
-   - Download Npcap from [https://npcap.com/](https://npcap.com/)
-   - Just click next-next-finish (default settings are perfect!)
-   - Note: You don't need Wireshark, just Npcap!
-
-3. Install Python packages (open PowerShell as admin):
+2. Install Python packages (open PowerShell as admin):
 ```powershell
-# Core packages
+# Core functionality
 pip install scapy        # For packet capture
 pip install psutil       # For process monitoring
 pip install pandas      # For data analysis
+
+# GUI and system packages (if not included with Python)
+pip install tk          # For GUI (tkinter)
+pip install ttk         # For themed widgets
 ```
 
-4. Install Node.js for JavaScript support:
+3. Required Python Built-in Modules:
+   These come with Python, no need to install:
+   - struct (binary data handling)
+   - datetime (time operations)
+   - threading (multithreading)
+   - socket (network operations)
+   - webbrowser (opening web pages)
+   - os (file/path operations)
+   - re (regular expressions)
+   - collections (for defaultdict)
+
+4. Install Npcap (REQUIRED for packet capture):
+   - Download Npcap from [https://npcap.com/](https://npcap.com/)
+   - Install with default settings
+   - Required for Scapy to capture packets
+
+5. Install Node.js for JavaScript support:
    - Download Node.js from [https://nodejs.org/](https://nodejs.org/)
    - Install the LTS (Long Term Support) version
    - Verify installation by opening PowerShell and typing:
@@ -48,7 +63,7 @@ node --version
 npm --version
 ```
 
-5. Verify JavaScript files:
+6. Verify JavaScript files:
    Make sure all these files are in your project folder:
    - operation_nomenclature.js
    - cpu_tracker.js
@@ -58,7 +73,7 @@ npm --version
    - memory_profiler.js
    - WEb-IDE_Debugger1.html
 
-6. Additional Components (auto-installed):
+7. Additional Components (auto-installed):
    - All Python built-in modules (struct, datetime, etc.)
    - JavaScript runs in the browser (no extra installation needed)
    - HTML/CSS comes with the package
