@@ -106,4 +106,4 @@ I created this tool just for fun while learning about network analysis. It start
 
 This is free to use! If you make something cool with it, I'd love to hear about it. Built with ❤️ and lots of ☕
 
-> **Note**: This is a learning tool! Be responsible with network analysis tools. Don't be that person who uses it for uncool stuff! 😉
+> **Note**: This is a learning tool!
