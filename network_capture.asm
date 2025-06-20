@@ -10,3 +10,4 @@ section .bss
     packet_buffer: resb BUF_SIZE
     shm_id:        resq 1
     socket_fd:     resd 1
+//jokin this doesnt do anything
