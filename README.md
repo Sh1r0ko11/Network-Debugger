@@ -19,6 +19,7 @@ Hey there! 👋 This is my fun little project that I created to make network ana
 - Npcap (required for packet capture)
 - A modern web browser (Chrome, Firefox, or Edge)
 - A curious mind! 🧠
+- JavaScript-------- get it here: https://nodejs.org/en
 
 ## 🚀 Getting Started
 
